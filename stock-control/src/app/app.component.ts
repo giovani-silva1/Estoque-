@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
   title = 'stock-control';
 
   constructor(private primeNgConfig: PrimeNGConfig) {}
+
   ngOnInit(): void {
     this.primeNgConfig.ripple = true;
   }
